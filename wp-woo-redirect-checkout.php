@@ -19,7 +19,7 @@ if (!in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get
     function sm_show_unactive_woo() {
         ?>
         <div class="error notice">
-            <p><?php _e('Please activate the WooCommerce plugin first.', 'your-plugin-textdomain'); ?></p>
+            <p><?php 'Anda wajib untuk aktifkan plugin woocommerce jika ingin menggunakan plugin ini'; ?></p>
         </div>
         <?php
     }
